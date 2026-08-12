@@ -4,18 +4,19 @@ export default {
   theme: {
     extend: {
       colors: {
-        navy: "#1F3558",
-        blue: "#4F6F99",
-        "muted-blue": "#8FA3C1",
-        "icy-blue": "#B0C9E2",
-        blush: "#F3C7BC",
-        "off-white": "#FAF9F6",
-        "text-dark": "#1D2633",
-        "text-muted": "#5F6B7A",
+        lavender: "#B9A9E8",
+        "lavender-light": "#E8E1F9",
+        mint: "#A8D8C9",
+        "mint-light": "#DCF2EA",
+        pink: "#F5C6D6",
+        "pink-light": "#FBE8EE",
+        ink: "#2B2B3D",
+        muted: "#6B6B7D",
+        cream: "#fffdff",
       },
       fontFamily: {
         serif: ["'Playfair Display'", "serif"],
-        sans: ["'Inter'", "sans-serif"],
+        sans: ["'Poppins'", "sans-serif"],
       },
     },
   },
