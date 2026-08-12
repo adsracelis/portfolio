@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -7,5 +9,11 @@ html {
 }
 
 body {
-  @apply bg-slate-50 dark:bg-bg text-slate-800 dark:text-slate-100 transition-colors duration-300;
+  @apply bg-off-white text-text-dark font-sans;
+  overflow-x: hidden;
+}
+
+::selection {
+  background-color: #B0C9E2;
+  color: #1F3558;
 }

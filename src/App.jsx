@@ -1,30 +1,23 @@
-import { useState, useEffect } from "react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
-import Skills from "./components/Skills";
+import TechStack from "./components/TechStack";
 import Projects from "./components/Projects";
+import Certificates from "./components/Certificates";
 import Experience from "./components/Experience";
-import Certifications from "./components/Certifications";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
 export default function App() {
-  const [dark, setDark] = useState(true);
-
-  useEffect(() => {
-    document.documentElement.classList.toggle("dark", dark);
-  }, [dark]);
-
   return (
     <div>
-      <Navbar dark={dark} setDark={setDark} />
+      <Navbar />
       <Hero />
       <About />
-      <Skills />
+      <TechStack />
       <Projects />
+      <Certificates />
       <Experience />
-      <Certifications />
       <Contact />
       <Footer />
     </div>
