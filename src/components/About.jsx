@@ -83,7 +83,7 @@ const symbolPositions = [
   { top: "15%", left: "60%" },
   { top: "70%", left: "90%" },
   { top: "40%", left: "45%" },
-];
+]
 
 export default function About() {
   return (
