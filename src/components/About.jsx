@@ -8,7 +8,7 @@ const strengths = [
     desc: "Careful attention to accuracy in technical work and documentation",
     icon: FiSearch,
     accent: "lavender",
-  },
+  
   {
     title: "Problem-Solving",
     desc: "Analytical approach to troubleshooting technical issues",
@@ -83,7 +83,7 @@ const symbolPositions = [
   { top: "15%", left: "60%" },
   { top: "70%", left: "90%" },
   { top: "40%", left: "45%" },
-]
+];
 
 export default function About() {
   return (
