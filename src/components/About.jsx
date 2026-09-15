@@ -8,7 +8,7 @@ const strengths = [
     desc: "Careful attention to accuracy in technical work and documentation",
     icon: FiSearch,
     accent: "lavender",
-  
+  },
   {
     title: "Problem-Solving",
     desc: "Analytical approach to troubleshooting technical issues",
